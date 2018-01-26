@@ -24,7 +24,7 @@ module OmniAuth
       option :state
       option :response_mode
       option :display, nil#, [:page, :popup, :touch, :wap]
-      option :prompt, :login#, [:none, :login, :consent, :select_account]
+      option :prompt, [:none, :login, :consent, :select_account]#, [:none, :login, :consent, :select_account]
       option :max_age
       option :ui_locales
       option :id_token_hint
